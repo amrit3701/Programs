@@ -17,7 +17,7 @@ int main()
     
     cin >> n;
     x=factorial(n);
-
+    cout<<"skhfd"<<x;
     while(x%10==0){
     y=y+1;
     x = x/10;

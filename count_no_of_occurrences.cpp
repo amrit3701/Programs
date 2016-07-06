@@ -1,10 +1,17 @@
+/**
+ * This program counts the number of digits present in the 
+ * number.
+ */
+
 #include <iostream>
 #include <string>
 using namespace std;
 int main(){
+    // Initialise the variables
     int a = 0, b = 0, c = 0, d = 0, e = 0, f = 0, g = 0, h = 0, j = 0, k = 0; 
     string s;
     cin >> s;
+    // Calculate the length of the string
     int l = s.length();
     for(int i = 0; i < l; i++){
         if (s[i]  == '0'){
@@ -28,6 +35,7 @@ int main(){
         else if (s[i] == '9'){
             k++; }
     }
+    // Print the output
     cout << "0 " << a << endl;
     cout << "1 " << b << endl;
     cout << "2 " << c << endl;  
